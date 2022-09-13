@@ -1,0 +1,559 @@
+body {
+    background: #F5F5F5;
+}
+
+.warpPage {
+    position: relative;
+    width: 100%;
+}
+
+.rectangleHeader {
+    position: relative;
+    width: 100%;
+    height: 155px;
+    background: #9EACB9;
+    }
+
+    /* Desktop */
+.textHeader {
+    position: absolute;
+    width: 246px;
+    height: 66px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 110%;
+    color: #F2F4F7;
+    margin: 44px 89px;
+    }
+    
+/* Top 10 Desktop */
+.top10desktop {
+    display: flex;
+    height: 66px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    color: #626E79;
+}
+.rectangleWrap{
+    display: flex;
+    width: 100%; 
+    height: 100%;
+}
+
+.rectangle{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 1024px;
+    height: 176px;
+    margin: 25px auto;
+    background: #FFFFFF;
+    /* Shadow */
+    box-shadow: 0px 51px 114px rgba(199, 199, 199, 0.15), 0px 15.375px 34.3677px rgba(199, 199, 199, 0.0895633), 0px 6.38599px 14.2746px rgba(199, 199, 199, 0.0605927), 0px 2.30969px 5.16283px rgba(199, 199, 199, 0.0352376);
+    border-radius: 12px;
+}
+
+.frameBestValueExternal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 8px;
+    gap: 8px;
+    position: absolute;
+    width: 140px;
+    height: 32px;
+    left: -7px;
+    top: -16px;
+    background: #D5EAFF;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.frameTriangleBottom {
+    position: absolute;
+    left: 0px;
+    bottom: -7px;
+	width: 0;
+	height: 0;
+	border-top: 0px solid transparent;
+	border-right: 7px solid #99CDFF;
+	border-bottom: 7px solid transparent;
+}
+
+.frameBestValueInner {
+    width: 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fireSymbol, .victoryCupSymbol {
+    font-size: 22px;
+    color: #0B76E0;
+    margin-bottom: 3px;
+}
+
+.textBestValue, .textBestChoice {
+    width: 84px;
+    height: 22px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #0B76E0;
+}
+
+.rectangleContent{
+    display: flex;
+    position: relative;
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 1024px;
+    height: 176px;
+    margin: 25px auto;
+
+}
+
+    /* 01 */
+.textIndex{
+    width: 95px;
+    height: 108px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 135%;
+    /* text-transform: capitalize; */
+    color: rgba(85, 98, 110, 0.25);
+}
+
+/* https___m.media-amazon.com_images_I_51Ryy6VK9ES 16 */
+.svgPic{
+    position: absolute;
+    width: 202px;
+    height: 128px;
+    left: 579px;
+    top: 41px;
+    background: url(https___m.media-amazon.com_images_I_51Ryy6VK9ES.png);
+}
+
+.cubeDetails, .cubeDetailsMob {
+    width: 277px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 22.4px;
+    color: #55626E;
+}
+
+/* SONY */
+.cubeDetailsInner {
+    width: 41px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #626E79;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-transform: uppercase;
+}
+
+    /* 50% OFF */
+.cubeDetailsOff{
+    padding: 2px 4px;
+    width: 62px;
+    height: 20px;
+    background: #55A0EA;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+
+.frameScore{
+    width: 67px;
+    font-family: 'Arial';
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+.info{
+    font-family: intro;
+    text-align: center;
+    width: 12px;
+    height: 12px;
+    font-size: 13px;
+    line-height: 13px;
+    font-style: normal;
+}
+
+
+.vector {
+    line-height: 12px;
+    text-align: center;
+    border-radius: 12px;
+    Width: 12.25px;
+    Height:12.25px;
+    color: #8C9196;
+    border: 1px solid #8C9196;
+    position: relative;
+    top: 9px;
+}
+
+.score {
+    width: 52px;
+    height: 39px;
+    margin: auto;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32.8165px;
+    line-height: 120%;
+    text-align: center;
+    color: #55626E;
+}
+
+
+.frameViewDeal {
+    width: 246px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.buttonViewDeal {
+    width: 246px;
+    height: 44px;
+    background: #0B76E0;
+    border-radius: 12px;
+
+}
+.buttonTxtViewDeal{
+    width: 80px;
+    height: 22px;
+    align-items: center;
+    padding: 10px 80px;
+    margin: auto;
+    gap: 12px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.bottomFrameViewDeal{
+    width: 246px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #626E79;
+}
+
+.showTxt {
+    font-weight: 600;
+}
+.arrow {
+    border: solid #626E79;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.rating {
+    width: 66px;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.rating > input{ display:none;}
+
+.rating > label {
+    position: relative;
+    width: 11px;
+    font-size: 13px;
+    color: #0B76E0;
+    cursor: pointer;
+}
+
+.rating > label::before{
+    content: "\2605";
+    position: absolute;
+    opacity: 0;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before {
+    font-size: 15px;
+    bottom:-1px;
+    opacity: 1 !important;
+}
+
+.rating > input:checked ~ label:before{
+    opacity:1;
+}
+
+
+/*--- Desktop ---*/
+@media only screen and (min-width: 1074px) {
+    .txtDesk {display:block;}
+    .txtTab, .txtMob { display: none;}
+    .cubeDetailsOff {display: block;}
+    .showTxtWrap { display: block;}
+    .showTxtTab { display: none;}
+    .fireSymbol, .textBestValue {display: block;}
+    .victoryCupSymbol, .textBestChoice{ display: none;}
+    .cubeDetails, .frameViewDeal {display: block;}
+    .cubeDetailsMob {display: none;}
+
+  }
+  /*--- Tablet ---*/
+@media only screen and (min-width:720px) and (max-width: 1074px) {
+    .txtTab { display:block;}
+    .txtDesk, .txtMob { display: none;}
+
+    .frameBestValueExternal{
+        width: 104px;
+        height: 28px;
+    }
+    .frameBestValueInner{
+        width: 104px;
+        height: 28px;
+        justify-content: space-between;
+    }
+    .fireSymbol{ font-size: 16px;}
+    .textBestValue {font-size: 12px;}
+    .rectangle{
+        width: 672px;
+        height: 132px;
+    }
+    .textIndex{
+        width: 59px;
+        height: 68px;
+        font-size: 50px;
+        position: absolute;
+        right: 10px;
+        top: -30px;
+    }
+    .imgComp {
+        width: 118px;
+        height: 75px;
+        margin: 0px 15px;
+    }
+    .cubeDetails{
+        font-size: 14px;
+    font-weight: 500;
+    }
+    .cubeDetailsInner {font-size: 12px;}
+    .cubeDetailsOff {display: none;}
+
+    .frameScore{ width: 50px;}
+    .vector {
+        width: 10px;
+        height: 10px;
+        top: 4px;
+    }
+    .info {
+        width: 10px;
+        height: 10px;
+        font-size: 11px;
+        line-height: 10px;
+    }
+
+    .score{
+        font-size: 20px;
+        width: 32px;
+        height: 28px;
+    }
+    .rating{width: 49px;}
+    .rating > label {
+        width: 9px;
+        font-size: 10px;
+    }
+    .frameViewDeal{ 
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        width: 171px;
+    }
+    .buttonViewDeal{ 
+        width: 171px;
+        height: 36px;
+    }
+    .buttonTxtViewDeal {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 7px 45px;
+    }
+    .bottomFrameViewDeal {
+        width: 171px;
+        font-size: 12px;
+        line-height: 17px;
+        margin-top: 13px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .showTxtWrap { display: none;}
+    .showTxtTab { display: block;}
+    .showTxt {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        margin-right: 4px;
+    }
+    .arrow{
+        border-width: 0 2px 2px 0;
+        padding: 2px;
+        margin-bottom: 2px;
+    }
+    .fireSymbol, .textBestValue {display: block;}
+    .victoryCupSymbol, .textBestChoice{ display: none;}
+    .cubeDetails, .frameViewDeal {display: block;}
+    .cubeDetailsMob {display: none;}
+
+
+  }
+
+
+/*--- Mobile ---*/
+@media only screen and (max-width: 720px) {
+    .txtMob { display:block;}
+    .txtDesk, .txtTab { display: none;}
+    .fireSymbol, .textBestValue {display: none;}
+    .victoryCupSymbol, .textBestChoice{ display: block;}
+    .cubeDetails, .frameViewDeal {display: none;}
+    .cubeDetailsMob {display: block;}
+
+    .top10desktop{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .rectangle {
+        max-width: 720px;
+        width: -webkit-fill-available;
+        margin: 0px 20px;
+        height: -webkit-fill-available;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .frameBestValueExternal {
+        background: #FF5C00;
+        border-radius: 0px 8px 8px 0px;
+    }
+    .frameTriangleBottom {
+        border-right: 7px solid #B04000;
+    }
+    .victoryCupSymbol {
+        font-size: 17px;
+    }
+    .textBestChoice {
+        width: auto;
+        color: #FFFFFF;
+    }
+    .textIndex {
+        position: absolute;
+        top: -47px;
+        right: 8px;
+        font-size: 70px;
+        width: 76px;
+        height: 77px;
+    }
+    .imgComp {
+        width: 160px;
+        height: 101px;
+        margin: 42px auto 20px auto;
+    }
+    .frameScore {
+        position: absolute;
+        right: 35px;
+        top: 60px;
+    }
+    .cubeDetailsMob {
+        min-width: 300px;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cubeDetailsInner{
+        font-weight: 400;
+        order: 0;
+    }
+
+    .cubeDetailsOffWrp{
+        min-width: 300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3px;
+    }
+    .buttonViewDeal{
+        width: 300px;
+        margin-top: 25px;
+    }
+    .bottomFrameViewDeal {
+        width: 300px;
+        margin: 20px auto;
+    }
+
+  }
